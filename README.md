@@ -8,11 +8,14 @@ It has a tiny binary file size, at just 151kb (Windows 64-bit in release mode). 
 <img width=40% align=right src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsMario.png" alt="Mario screenshot on Windows">
 <img width=40% src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsTetris.png" alt="Tetris screenshot on Windows">
 <img width=40% align=right src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/Linux.png" alt="Tetris screenshot on Linux">
-<img width=40% src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsDebug.png" alt="Mario screenshot on Windows with debugger">
 
 ## Supported games
 * **Tetris** (World) (Rev A)
 * **Super Mario Land** (World)
+
+## Debugger
+Pixelboy has an in-built debugger, which is included when compiled under debug mode (see below).
+<img width=70% src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsDebug.png" alt="Mario screenshot on Windows with debugger">
 
 ## Usage
 * On Windows, compile by opening the solution in Visual Studio then building. If you wish to include the in-built debugger, compile under debug mode.
