@@ -7,7 +7,7 @@ It has a tiny binary file size, at just 151kb (Windows 64-bit in release mode). 
 ## Screenshots
 <img width=40% align=right src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsMario.png" alt="Mario screenshot on Windows">
 <img width=40% src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsTetris.png" alt="Tetris screenshot on Windows">
-<img width=40% align=right src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/Linux.png" alt="Tetris screenshot on Linux">
+<img width=40% src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/Linux.png" alt="Tetris screenshot on Linux">
 
 ## Supported games
 * **Tetris** (World) (Rev A)
