@@ -305,7 +305,7 @@ public:
 		 { "RET NC", 0, RET_NC }, // 0xd0
 		 { "POP DE", 0, POP_DE }, // 0xd1
 		 { "JP NC, 0x%04X", 2, JP_NC_NN }, // 0xd2
-		 { "UNKNOWN", 0, Undefined }, // 0xd3
+		 { "UNKNOWN 0xD3", 0, Undefined }, // 0xd3
 		 { "CALL NC, 0x%04X", 2, CALL_NC_NN }, // 0xd4
 		 { "PUSH DE", 0, PUSH_DE }, // 0xd5
 		 { "SUB 0x%02X", 1, SUB_N }, // 0xd6
@@ -313,32 +313,32 @@ public:
 		 { "RET C", 0, RET_C }, // 0xd8
 		 { "RETI", 0, RETI }, // 0xd9
 		 { "JP C, 0x%04X", 2, JP_C_NN }, // 0xda
-		 { "UNKNOWN", 0, Undefined }, // 0xdb
+		 { "UNKNOWN 0xDB", 0, Undefined }, // 0xdb
 		 { "CALL C, 0x%04X", 2, CALL_C_NN }, // 0xdc
-		 { "UNKNOWN", 0, Undefined }, // 0xdd
+		 { "UNKNOWN 0xDD", 0, Undefined }, // 0xdd
 		 { "SBC 0x%02X", 1, SBC_N }, // 0xde
 		 { "RST 0x18", 0, RST_18 }, // 0xdf
 		 { "LD (0xFF00 + 0x%02X), A", 1, LD_FF_N_A}, // 0xe0
 		 { "POP HL", 0, POP_HL }, // 0xe1
 		 { "LD (0xFF00 + C), A", 0, LD_FF_C_A }, // 0xe2
-		 { "UNKNOWN", 0, Undefined }, // 0xe3
-		 { "UNKNOWN", 0, Undefined }, // 0xe4
+		 { "UNKNOWN 0xE3", 0, Undefined }, // 0xe3
+		 { "UNKNOWN 0xE4", 0, Undefined }, // 0xe4
 		 { "PUSH HL", 0, PUSH_HL }, // 0xe5
 		 { "AND 0x%02X", 1, AND_N }, // 0xe6
 		 { "RST 0x20", 0, RST_20 }, // 0xe7
 		 { "ADD SP,0x%02X", 1, ADD_SP_N }, // 0xe8
 		 { "JP HL", 0, JP_HL }, // 0xe9
 		 { "LD (0x%04X), A", 2, LD_NN_A }, // 0xea
-		 { "UNKNOWN", 0, Undefined }, // 0xeb
-		 { "UNKNOWN", 0, Undefined }, // 0xec
-		 { "UNKNOWN", 0, Undefined }, // 0xed
+		 { "UNKNOWN 0xEB", 0, Undefined }, // 0xeb
+		 { "UNKNOWN 0xEC", 0, Undefined }, // 0xec
+		 { "UNKNOWN 0xED", 0, Undefined }, // 0xed
 		 { "XOR 0x%02X", 1, XOR_N }, // 0xee
 		 { "RST 0x28", 0, RST_28 }, // 0xef
 		 { "LD A, (0xFF00 + 0x%02X)", 1, LD_FF_A_N }, // 0xf0
 		 { "POP AF", 0, POP_AF }, // 0xf1
 		 { "LD A, (0xFF00 + C)", 0, LD_A_FF_C }, // 0xf2
 		 { "DI", 0, DI }, // 0xf3
-		 { "UNKNOWN", 0, Undefined }, // 0xf4
+		 { "UNKNOWN 0xF4", 0, Undefined }, // 0xf4
 		 { "PUSH AF", 0, PUSH_AF }, // 0xf5
 		 { "OR 0x%02X", 1, OR_N }, // 0xf6
 		 { "RST 0x30", 0, RST_30 }, // 0xf7
@@ -346,8 +346,8 @@ public:
 		 { "LD SP, HL", 0, LD_SP_HL }, // 0xf9
 		 { "LD A, (0x%04X)", 2, LD_A_NN }, // 0xfa
 		 { "EI", 0, EI }, // 0xfb
-		 { "UNKNOWN", 0, Undefined }, // 0xfc
-		 { "UNKNOWN", 0, Undefined }, // 0xfd
+		 { "UNKNOWN 0xFC", 0, Undefined }, // 0xfc
+		 { "UNKNOWN 0xFD", 0, Undefined }, // 0xfd
 		 { "CP 0x%02X", 1, CP_N }, // 0xfe
 		 { "RST 0x38", 0, RST_38 }, // 0xff
 	};
