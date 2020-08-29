@@ -25,12 +25,18 @@ cd Pixelboy
 g++ -o Pixelboy *.cpp *.c -lX11 -lGL -lpthread -lpng -lstdc++fs -std=c++17 -fpermissive
 ./Pixelboy
 ```
+* On MacOS, which at the time of writing only has experimental support, do the following:
+```
+cd Pixelboy
+clang++ -arch x86_64 -std=c++17 -mmacosx-version-min=10.15 -Wall -framework OpenGL -framework GLUT -lpng *.cpp -o Pixelboy
+./Pixelboy
+```
 Simply run the application and select the ROM which you would like to run. 
 
 ## Supported platforms
 * Windows builds on Visual Studio with minimal effort and runs perfectly
 * Full Linux support too (except for a bug with V-Sync)
-* As far as I'm aware, the Pixel Game Engine doesn't support Mac OS
+* MacOS works, but is experimental
 
 ## Dependencies
 All dependencies are included with the source code. These include:
