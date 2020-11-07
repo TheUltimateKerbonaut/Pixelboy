@@ -2,7 +2,7 @@
 
 Pixelboy is a GameBoy emulator written in modern(ish) C++.  All official opcodes are supported, and most of Blargg's tests pass.
 It has a tiny binary file size, at just 151kb (Windows 64-bit in release mode). Pixelboy also has an in-built debugger.
-**Game support is lacking**, owing to the project's lack of development, and **Audio is not yet supported**.
+**Game support is lacking**, owing to the project's lack of development, and **audio is not yet supported**.
 
 ## Screenshots
 <img width=40% align=right src="https://raw.githubusercontent.com/TheUltimateKerbonaut/Pixelboy/master/Screenshots/WindowsMario.png" alt="Mario screenshot on Windows">
